@@ -1,0 +1,23 @@
+.kartica {
+  background-color: #6c63ff;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+body {
+  background: #1e1e1e;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.pretinac-kartica,
+.gornji-dio {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.gornji-dio > img {
+  width: 30px;
+}
